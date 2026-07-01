@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Skill(run)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx --yes playwright install chromium --with-deps)",
+      "Bash(cp \"C:/Users/VuMin/AppData/Local/Temp/claude/C--vuong-source-family-tree4/49dd2130-2bed-40af-a706-d2c138d65d28/scratchpad/probe.mjs\" \"C:/vuong/source/family-tree4/probe.mjs\")",
+      "Bash(node probe.mjs)",
+      "Bash(rm -f probe.mjs probe2.mjs scratch-01-initial.png scratch-02-collapsed.png scratch-03-expanded-again.png)",
+      "Bash(npm uninstall *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5175/)",
+      "Bash(node probe4.mjs)",
+      "Bash(ls -la src/assets/)",
+      "Bash(ls -la public/)",
+      "Bash(node verify2.mjs)",
+      "Bash(rm -f diag.mjs diag2.mjs diag3.mjs diag-full.png diag-zoom.png verify4.mjs verify5.mjs verify6.mjs v4-01-initial.png v4-02-zoom-root.png v4-03-collapsed.png v4-04-expanded.png v5-conditional.png v6-full.png)",
+      "Bash(rm -f verify11.mjs verify12.mjs v11-01-full.png v11-02-zoom.png v11-03-expanded.png v12-after-click.png)"
+    ]
+  }
+}
